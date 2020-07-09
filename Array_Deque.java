@@ -9,6 +9,8 @@ public class Array_Deque {
         ob.push(10);
         ob.push(20);
         ob.push(30);
-        System.out.println(ob.pop());
+        while (ob.peek() != null) {
+            System.out.println("Poped items" + ob.pop());
+        }
     }
 }
