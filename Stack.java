@@ -2,7 +2,7 @@ package javaapplication2;
 
 import java.util.ArrayDeque;
 
-public class Array_Deque {
+public class Stack {
 
     public static void main(String[] args) {
         ArrayDeque<Integer> ob = new ArrayDeque<>();
